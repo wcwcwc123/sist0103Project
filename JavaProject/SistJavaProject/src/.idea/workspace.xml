@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94cc9a79-6107-4aca-8048-fda41a3d52a3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/day0106/Book131_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/Book131_17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/DoWhile_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/DoWhile_08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/Factorial_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/Factorial_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/ForGugu_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/ForGugu_14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/For_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/For_07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/For_09.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/For_09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/For_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/For_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/OpenYoon_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/OpenYoon_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/OperReview_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/OperReview_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/OperationEx1_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/OperationEx1_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/QuizForWhile_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/QuizForWhile_15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/QuizFor_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/QuizFor_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/Quiz_18.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/Quiz_18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/WhileFor_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/WhileFor_05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/WhileTest_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/WhileTest_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/YoonYear_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/YoonYear_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0106/sumTest_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0108/sumTest_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/Book131_17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/DoWhile_08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/Factorial_13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/ForGugu_14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/For_07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/For_09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/For_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/OpenYoon_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/OperReview_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/OperationEx1_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/QuizForWhile_15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/QuizFor_12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/Quiz_18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/WhileFor_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/WhileTest_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/YoonYear_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SistJavaProject/day0106/sumTest_11.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2aeXvjthF5HAhaXOrYMauV35gJr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Abstract_11.executor": "Run",
+    "Application.ArrChangeDatas_04.executor": "Run",
+    "Application.ArrDataInOut_12.executor": "Run",
+    "Application.ArrInt_10.executor": "Run",
+    "Application.ArrJungbokSort_06.executor": "Run",
+    "Application.ArrMaxNum_13.executor": "Run",
+    "Application.ArrReview_01.executor": "Run",
+    "Application.ArrString_11.executor": "Run",
+    "Application.ArrayChange_03.executor": "Run",
+    "Application.ArraySearchName_02.executor": "Run",
+    "Application.ArraySearchNum_01.executor": "Run",
+    "Application.ArraySortString_05.executor": "Run",
+    "Application.ArrayString_09.executor": "Run",
+    "Application.Book131_17.executor": "Run",
+    "Application.Book175_14.executor": "Run",
+    "Application.CallByReference_12.executor": "Run",
+    "Application.CardTest_08.executor": "Run",
+    "Application.ConstNum_11 (1).executor": "Run",
+    "Application.ConstNum_11 (2).executor": "Run",
+    "Application.ConstNum_11 (3).executor": "Run",
+    "Application.ConstNum_11 (4).executor": "Run",
+    "Application.ConstNum_11 (5).executor": "Run",
+    "Application.ConstNum_11.executor": "Run",
+    "Application.ConstTest_02.executor": "Run",
+    "Application.DoWhile_08.executor": "Run",
+    "Application.Factorial_13.executor": "Run",
+    "Application.ForGugu_14.executor": "Run",
+    "Application.ForStar_02.executor": "Run",
+    "Application.For_07.executor": "Run",
+    "Application.For_09.executor": "Run",
+    "Application.For_10.executor": "Run",
+    "Application.GetInstance_15.executor": "Run",
+    "Application.IfOperTest_11.executor": "Run",
+    "Application.Implement_13.executor": "Run",
+    "Application.Inheri_06.executor": "Run",
+    "Application.InterImpl.executor": "Run",
+    "Application.MathRandom_04.executor": "Run",
+    "Application.MyDate_14.executor": "Run",
+    "Application.ObjectEx_07.executor": "Run",
+    "Application.OpenYoon_04.executor": "Run",
+    "Application.OperReview_02.executor": "Run",
+    "Application.OperationEx1_01.executor": "Run",
+    "Application.QuizClass_16 (1).executor": "Run",
+    "Application.QuizClass_16.executor": "Run",
+    "Application.QuizForWhile.executor": "Run",
+    "Application.QuizForWhile_15.executor": "Run",
+    "Application.QuizFor_12.executor": "Run",
+    "Application.QuizFor_17.executor": "Run",
+    "Application.QuizInOutRank_15.executor": "Run",
+    "Application.QuizMain (1).executor": "Run",
+    "Application.QuizMain.executor": "Run",
+    "Application.Quiz_18.executor": "Run",
+    "Application.RandomSu_06.executor": "Run",
+    "Application.Random_05.executor": "Run",
+    "Application.SangpumIpgo_13.executor": "Run",
+    "Application.StaticInstance_09.executor": "Run",
+    "Application.StringEx_07.executor": "Run",
+    "Application.StringIn_01.executor": "Run",
+    "Application.StudentMain_10.executor": "Run",
+    "Application.ThisEx_03.executor": "Run",
+    "Application.WhileFor_05.executor": "Run",
+    "Application.WhileReview_03.executor": "Run",
+    "Application.WhileTest_06.executor": "Run",
+    "Application.WorkerMethod_12.executor": "Run",
+    "Application.YoonYear_03.executor": "Run",
+    "Application.sumTest_11.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "woochan",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/work/sist0103Project/JavaProject/SistJavaProject/src",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.QuizMain (1)">
+    <configuration name="Abstract_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0112.Abstract_11" />
+      <module name="SistJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day0112.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Implement_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0112.Implement_13" />
+      <module name="SistJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day0112.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0112.InterImpl" />
+      <module name="SistJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day0112.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuizMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0112.QuizMain" />
+      <module name="SistJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day0112.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuizMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0112.QuizMain" />
+      <module name="SistJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day0112.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QuizMain (1)" />
+        <item itemvalue="Application.QuizMain" />
+        <item itemvalue="Application.InterImpl" />
+        <item itemvalue="Application.Implement_13" />
+        <item itemvalue="Application.Abstract_11" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-a618e4d4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94cc9a79-6107-4aca-8048-fda41a3d52a3" name="Changes" comment="" />
+      <created>1704680250597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704680250597</updated>
+    </task>
+    <servers />
+  </component>
+</project>
