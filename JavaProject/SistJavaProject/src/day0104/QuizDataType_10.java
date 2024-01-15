@@ -8,9 +8,7 @@ public class QuizDataType_10 {
 		int java = Integer.parseInt(args[3]);
 		int oracle = Integer.parseInt(args[4]);
 		
-		String result = """
-				%s님의 자바점수는 %d점 오라클점수는 %d점 총 %d점입니다.
-				""".formatted(name,java,oracle,(java+oracle));
+		String result = "";
 		
 		
 		System.out.printf("학생명: %s 님\n",name);
