@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.51">
     <root id="1">
       <ServerVersion>21.0.0.0.0</ServerVersion>
-      <TablespacesHash>24785746120</TablespacesHash>
+      <TablespacesHash>25023112897</TablespacesHash>
     </root>
     <schema id="2" parent="1" name="ANONYMOUS">
       <ObjectId>72</ObjectId>
@@ -91,9 +91,9 @@
     </schema>
     <schema id="30" parent="1" name="PUBLIC">
       <AutoIntrospectionLevel>1</AutoIntrospectionLevel>
-      <LastIntrospectionL1Timestamp>2024-01-27.00:14:14</LastIntrospectionL1Timestamp>
+      <LastIntrospectionL1Timestamp>2024-01-29.23:41:24</LastIntrospectionL1Timestamp>
       <LastIntrospectionLevel>1</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2024-01-26.06:14:14</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-01-29.05:41:24</LastIntrospectionLocalTimestamp>
       <ObjectId>1</ObjectId>
     </schema>
     <schema id="31" parent="1" name="REMOTE_SCHEDULER_AGENT">
@@ -130,13 +130,13 @@
       <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
       <CreatedTimestamp>2024-01-26.20:04:27</CreatedTimestamp>
       <Current>1</Current>
-      <LastIntrospectionL1Timestamp>2024-01-27.00:14:14</LastIntrospectionL1Timestamp>
-      <LastIntrospectionL2Timestamp>2024-01-27.00:14:14</LastIntrospectionL2Timestamp>
-      <LastIntrospectionL3Timestamp>2024-01-27.00:14:14</LastIntrospectionL3Timestamp>
+      <LastIntrospectionL1Timestamp>2024-01-29.23:41:24</LastIntrospectionL1Timestamp>
+      <LastIntrospectionL2Timestamp>2024-01-29.23:41:24</LastIntrospectionL2Timestamp>
+      <LastIntrospectionL3Timestamp>2024-01-29.23:41:24</LastIntrospectionL3Timestamp>
       <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2024-01-26.06:14:15</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-01-29.05:41:24</LastIntrospectionLocalTimestamp>
       <LastIntrospectionVersion>200820</LastIntrospectionVersion>
-      <ModifiedTimestamp>2024-01-27.00:14:14</ModifiedTimestamp>
+      <ModifiedTimestamp>2024-01-29.23:41:24</ModifiedTimestamp>
       <ObjectId>113</ObjectId>
     </schema>
     <schema id="42" parent="1" name="XDB">
@@ -59749,21 +59749,58 @@
       <ObjectId>77736</ObjectId>
       <SequenceIdentity>1(1)</SequenceIdentity>
     </sequence>
-    <table id="7506" parent="41" name="HELLO">
+    <sequence id="7506" parent="41" name="SEQ_SCORE">
+      <CacheSize>20</CacheSize>
+      <CreatedTimestamp>2024-01-29.20:41:35</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2024-01-29.20:41:35</ModifiedTimestamp>
+      <ObjectId>77744</ObjectId>
+      <SequenceIdentity>1(1)</SequenceIdentity>
+    </sequence>
+    <sequence id="7507" parent="41" name="SEQ_SMEM">
+      <CacheSize>20</CacheSize>
+      <CreatedTimestamp>2024-01-29.23:41:24</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2024-01-29.23:41:24</ModifiedTimestamp>
+      <ObjectId>77749</ObjectId>
+      <SequenceIdentity>1(1)</SequenceIdentity>
+    </sequence>
+    <table id="7508" parent="41" name="HELLO">
       <CreatedTimestamp>2024-01-26.20:06:32</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-01-26.20:06:32</ModifiedTimestamp>
       <ObjectId>77734</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="7507" parent="41" name="STUINFO">
+    <table id="7509" parent="41" name="SALES">
+      <CreatedTimestamp>2024-01-29.18:29:13</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2024-01-29.18:29:13</ModifiedTimestamp>
+      <ObjectId>77742</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="7510" parent="41" name="SAWONMEMBER">
+      <CreatedTimestamp>2024-01-29.23:41:02</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2024-01-29.23:41:02</ModifiedTimestamp>
+      <ObjectId>77747</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="7511" parent="41" name="STUINFO">
       <CreatedTimestamp>2024-01-27.00:14:14</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-01-27.00:14:14</ModifiedTimestamp>
       <ObjectId>77737</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <data-file id="7508" parent="44" name="C:\APP\USER\PRODUCT\21C\ORADATA\XE\SYSAUX01.DBF">
+    <table id="7512" parent="41" name="SUNGJUK">
+      <CreatedTimestamp>2024-01-29.20:45:45</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2024-01-29.20:45:45</ModifiedTimestamp>
+      <ObjectId>77745</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <data-file id="7513" parent="44" name="C:\APP\USER\PRODUCT\21C\ORADATA\XE\SYSAUX01.DBF">
       <AutoExtensible>1</AutoExtensible>
       <AvailabilityStatus>A</AvailabilityStatus>
       <FileId>3</FileId>
@@ -59774,7 +59811,7 @@
       <Position>3</Position>
       <UserSize>80512</UserSize>
     </data-file>
-    <data-file id="7509" parent="45" name="C:\APP\USER\PRODUCT\21C\ORADATA\XE\SYSTEM01.DBF">
+    <data-file id="7514" parent="45" name="C:\APP\USER\PRODUCT\21C\ORADATA\XE\SYSTEM01.DBF">
       <AutoExtensible>1</AutoExtensible>
       <AvailabilityStatus>A</AvailabilityStatus>
       <FileId>1</FileId>
@@ -59785,7 +59822,7 @@
       <Position>1</Position>
       <UserSize>171392</UserSize>
     </data-file>
-    <data-file id="7510" parent="46" name="C:\APP\USER\PRODUCT\21C\ORADATA\XE\TEMP01.DBF">
+    <data-file id="7515" parent="46" name="C:\APP\USER\PRODUCT\21C\ORADATA\XE\TEMP01.DBF">
       <AutoExtensible>1</AutoExtensible>
       <FileId>1</FileId>
       <FileSize>30336</FileSize>
@@ -59794,7 +59831,7 @@
       <Position>1</Position>
       <UserSize>30208</UserSize>
     </data-file>
-    <data-file id="7511" parent="47" name="C:\APP\USER\PRODUCT\21C\ORADATA\XE\UNDOTBS01.DBF">
+    <data-file id="7516" parent="47" name="C:\APP\USER\PRODUCT\21C\ORADATA\XE\UNDOTBS01.DBF">
       <AutoExtensible>1</AutoExtensible>
       <AvailabilityStatus>A</AvailabilityStatus>
       <FileId>4</FileId>
@@ -59805,35 +59842,35 @@
       <Position>4</Position>
       <UserSize>14592</UserSize>
     </data-file>
-    <data-file id="7512" parent="48" name="C:\APP\USER\PRODUCT\21C\ORADATA\XE\USERS01.DBF">
+    <data-file id="7517" parent="48" name="C:\APP\USER\PRODUCT\21C\ORADATA\XE\USERS01.DBF">
       <AutoExtensible>1</AutoExtensible>
       <AvailabilityStatus>A</AvailabilityStatus>
       <FileId>7</FileId>
-      <FileSize>960</FileSize>
+      <FileSize>1120</FileSize>
       <IncrementBy>160</IncrementBy>
       <MaxSize>4194302</MaxSize>
       <OnlineStatus>E</OnlineStatus>
       <Position>7</Position>
-      <UserSize>832</UserSize>
+      <UserSize>992</UserSize>
     </data-file>
-    <column id="7513" parent="7506" name="NUM">
+    <column id="7518" parent="7508" name="NUM">
       <DasType>NUMBER(5)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="7514" parent="7506" name="NAME">
+    <column id="7519" parent="7508" name="NAME">
       <DasType>VARCHAR2(20 byte)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="7515" parent="7506" name="ADDR">
+    <column id="7520" parent="7508" name="ADDR">
       <DasType>VARCHAR2(30 byte)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="7516" parent="7506" name="SDATE">
+    <column id="7521" parent="7508" name="SDATE">
       <DasType>DATE|0s</DasType>
       <Position>4</Position>
     </column>
-    <index id="7517" parent="7506" name="SYS_C008413">
+    <index id="7522" parent="7508" name="SYS_C008413">
       <ColNames>NUM</ColNames>
       <CreatedTimestamp>2024-01-26.20:06:32</CreatedTimestamp>
       <ModifiedTimestamp>2024-01-26.20:06:32</ModifiedTimestamp>
@@ -59842,39 +59879,129 @@
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="7518" parent="7506" name="SYS_C008413">
+    <key id="7523" parent="7508" name="SYS_C008413">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-01-26.20:06:32</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>SYS_C008413</UnderlyingIndexName>
     </key>
-    <column id="7519" parent="7507" name="S_NO">
+    <column id="7524" parent="7509" name="NUM">
       <DasType>NUMBER(5)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="7520" parent="7507" name="S_NAME">
-      <DasType>VARCHAR2(20 byte)|0s</DasType>
+    <column id="7525" parent="7509" name="TYPE">
+      <DasType>VARCHAR2(10 byte)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="7521" parent="7507" name="S_GENDER">
-      <DasType>VARCHAR2(10 byte)|0s</DasType>
+    <column id="7526" parent="7509" name="SANGPUM">
+      <DasType>VARCHAR2(30 byte)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="7522" parent="7507" name="S_AGE">
-      <DasType>NUMBER(10)|0s</DasType>
+    <column id="7527" parent="7509" name="SU">
+      <DasType>NUMBER(5)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="7523" parent="7507" name="S_HP">
-      <DasType>VARCHAR2(20 byte)|0s</DasType>
+    <column id="7528" parent="7509" name="DAN">
+      <DasType>NUMBER(5)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="7524" parent="7507" name="GAIPDAY">
+    <column id="7529" parent="7509" name="IPGO">
       <DasType>DATE|0s</DasType>
       <Position>6</Position>
     </column>
-    <index id="7525" parent="7507" name="SYS_C008414">
+    <index id="7530" parent="7509" name="SYS_C008415">
+      <ColNames>NUM</ColNames>
+      <CreatedTimestamp>2024-01-29.18:29:13</CreatedTimestamp>
+      <ModifiedTimestamp>2024-01-29.18:29:13</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>77743</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="7531" parent="7509" name="SYS_C008415">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2024-01-29.18:29:13</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C008415</UnderlyingIndexName>
+    </key>
+    <column id="7532" parent="7510" name="S_NO">
+      <DasType>NUMBER(5)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="7533" parent="7510" name="S_NAME">
+      <DasType>VARCHAR2(10 byte)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="7534" parent="7510" name="BUSEO">
+      <DasType>VARCHAR2(20 byte)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="7535" parent="7510" name="POSITION">
+      <DasType>VARCHAR2(10 byte)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="7536" parent="7510" name="GENDER">
+      <DasType>VARCHAR2(10 byte)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="7537" parent="7510" name="PAY">
+      <DasType>NUMBER(10)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="7538" parent="7510" name="BONUS">
+      <DasType>NUMBER(10)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="7539" parent="7510" name="IPSADAY">
+      <DasType>DATE|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <index id="7540" parent="7510" name="SYS_C008417">
+      <ColNames>S_NO</ColNames>
+      <CreatedTimestamp>2024-01-29.23:41:02</CreatedTimestamp>
+      <ModifiedTimestamp>2024-01-29.23:41:02</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>77748</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="7541" parent="7510" name="SYS_C008417">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2024-01-29.23:41:02</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C008417</UnderlyingIndexName>
+    </key>
+    <column id="7542" parent="7511" name="S_NO">
+      <DasType>NUMBER(5)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="7543" parent="7511" name="S_NAME">
+      <DasType>VARCHAR2(20 byte)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="7544" parent="7511" name="S_GENDER">
+      <DasType>VARCHAR2(10 byte)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="7545" parent="7511" name="S_AGE">
+      <DasType>NUMBER(10)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="7546" parent="7511" name="S_HP">
+      <DasType>VARCHAR2(20 byte)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="7547" parent="7511" name="GAIPDAY">
+      <DasType>DATE|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="7548" parent="7511" name="SYS_C008414">
       <ColNames>S_NO</ColNames>
       <CreatedTimestamp>2024-01-27.00:14:14</CreatedTimestamp>
       <ModifiedTimestamp>2024-01-27.00:14:14</ModifiedTimestamp>
@@ -59883,12 +60010,53 @@
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="7526" parent="7507" name="SYS_C008414">
+    <key id="7549" parent="7511" name="SYS_C008414">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-01-27.00:14:14</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>SYS_C008414</UnderlyingIndexName>
+    </key>
+    <column id="7550" parent="7512" name="NUM">
+      <DasType>NUMBER(5)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="7551" parent="7512" name="NAME">
+      <DasType>VARCHAR2(20 byte)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="7552" parent="7512" name="JAVA">
+      <DasType>NUMBER(5)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="7553" parent="7512" name="ORACLE">
+      <DasType>NUMBER(5)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="7554" parent="7512" name="TOTAL">
+      <DasType>NUMBER(5)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="7555" parent="7512" name="AVERAGE">
+      <DasType>NUMBER(6,2)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="7556" parent="7512" name="SYS_C008416">
+      <ColNames>NUM</ColNames>
+      <CreatedTimestamp>2024-01-29.20:45:45</CreatedTimestamp>
+      <ModifiedTimestamp>2024-01-29.20:45:45</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>77746</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>USERS</TablespaceName>
+    </index>
+    <key id="7557" parent="7512" name="SYS_C008416">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2024-01-29.20:45:45</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C008416</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

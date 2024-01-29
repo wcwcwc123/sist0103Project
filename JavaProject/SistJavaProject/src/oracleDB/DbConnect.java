@@ -15,7 +15,7 @@ public class DbConnect {
         try {
             conn = DriverManager.getConnection(ORACLE_DB, username, password);
         } catch (SQLException e) {
-            System.out.println("로컬 오라클DB연결 실패");
+            System.out.println("getOracle 로컬 오라클DB연결 실패");
         }
         return conn;
     }

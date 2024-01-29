@@ -2,6 +2,7 @@
   <library name="ojdbc11">
     <CLASSES>
       <root url="jar://$USER_HOME$/Downloads/ojdbc11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../util/ojdbc11.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
