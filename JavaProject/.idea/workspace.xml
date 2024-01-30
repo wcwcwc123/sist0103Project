@@ -8,10 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7efcdfa6-31dd-4753-9389-28a8e8d4b42c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7efcdfa6-31dd-4753-9389-28a8e8d4b42c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/ojdbc11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistJavaProject/src/day0126/QuizStuInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistJavaProject/src/day0126/QuizStuInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistJavaProject/src/oracleDB/DbConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistJavaProject/src/oracleDB/DbConnect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/day0126/QuizStuInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/day0126/QuizStuInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/oracleDB/DbConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/oracleDB/DbConnect.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +37,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AddStuInfo.executor": "Run",
     "Application.ConnectTest.executor": "Run",
     "Application.HelloCrud.executor": "Run",
     "Application.JdbcPstmt.executor": "Run",
     "Application.JdbcScore_02.executor": "Run",
+    "Application.KioskApp.executor": "Run",
     "Application.QuizJdbc.executor": "Run",
     "Application.QuizStuInfo.executor": "Run",
     "Application.SawonGroup.executor": "Run",
+    "Application.SwingJdbcScore.executor": "Run",
+    "Application.SwingTest (1).executor": "Run",
+    "Application.SwingTest (2).executor": "Run",
+    "Application.SwingTest (3).executor": "Run",
+    "Application.SwingTest (4).executor": "Run",
+    "Application.SwingTest (5).executor": "Run",
+    "Application.SwingTest.executor": "Run",
+    "Application.Test2.executor": "Run",
     "Application.day0120.ConnectTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -71,13 +77,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.QuizJdbc">
-    <configuration name="HelloCrud" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day0126.HelloCrud" />
+  <component name="RunManager" selected="Application.KioskApp">
+    <configuration name="KioskApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0130.KioskApp" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day0126.*" />
+          <option name="PATTERN" value="day0130.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcPstmt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day0129.JdbcPstmt" />
+    <configuration name="SwingTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0130.SwingTest" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day0129.*" />
+          <option name="PATTERN" value="day0130.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcScore_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day0129.JdbcScore_02" />
+    <configuration name="SwingTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0130.SwingTest" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day0129.*" />
+          <option name="PATTERN" value="day0130.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuizJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day0129.QuizJdbc" />
+    <configuration name="SwingTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0130.SwingTest" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day0129.*" />
+          <option name="PATTERN" value="day0130.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuizStuInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day0126.QuizStuInfo" />
+    <configuration name="SwingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0130.SwingTest" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day0126.*" />
+          <option name="PATTERN" value="day0130.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuizJdbc" />
-        <item itemvalue="Application.JdbcPstmt" />
-        <item itemvalue="Application.JdbcScore_02" />
-        <item itemvalue="Application.QuizStuInfo" />
-        <item itemvalue="Application.HelloCrud" />
+        <item itemvalue="Application.KioskApp" />
+        <item itemvalue="Application.SwingTest" />
+        <item itemvalue="Application.SwingTest (5)" />
+        <item itemvalue="Application.SwingTest (4)" />
+        <item itemvalue="Application.SwingTest (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +171,9 @@
       <workItem from="1706228837962" duration="2044000" />
       <workItem from="1706231082165" duration="916000" />
       <workItem from="1706232007871" duration="17921000" />
-      <workItem from="1706486491891" duration="17929000" />
+      <workItem from="1706486491891" duration="18825000" />
+      <workItem from="1706572904301" duration="6441000" />
+      <workItem from="1706582509615" duration="14634000" />
     </task>
     <servers />
   </component>
