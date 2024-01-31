@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="18610340-69b9-4709-a04d-2dc7d170fdc2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7efcdfa6-31dd-4753-9389-28a8e8d4b42c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7efcdfa6-31dd-4753-9389-28a8e8d4b42c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ojdbc11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +42,22 @@
     "Application.JdbcPstmt.executor": "Run",
     "Application.JdbcScore_02.executor": "Run",
     "Application.KioskApp.executor": "Run",
+    "Application.KioskMain.executor": "Run",
+    "Application.Quiz.executor": "Run",
     "Application.QuizJdbc.executor": "Run",
     "Application.QuizStuInfo.executor": "Run",
     "Application.SawonGroup.executor": "Run",
+    "Application.ShopAddForm (1).executor": "Run",
+    "Application.ShopAddForm (2).executor": "Run",
+    "Application.ShopAddForm (3).executor": "Run",
+    "Application.ShopAddForm (4).executor": "Run",
+    "Application.ShopAddForm.executor": "Run",
+    "Application.ShopListForm (1).executor": "Run",
+    "Application.ShopListForm (2).executor": "Run",
+    "Application.ShopListForm (3).executor": "Run",
+    "Application.ShopListForm (4).executor": "Run",
+    "Application.ShopListForm.executor": "Run",
+    "Application.ShopMain.executor": "Run",
     "Application.SwingJdbcScore.executor": "Run",
     "Application.SwingTest (1).executor": "Run",
     "Application.SwingTest (2).executor": "Run",
@@ -77,13 +89,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.KioskApp">
-    <configuration name="KioskApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day0130.KioskApp" />
+  <component name="RunManager" selected="Application.KioskMain">
+    <configuration name="KioskMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kiosk.KioskMain" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day0130.*" />
+          <option name="PATTERN" value="kiosk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwingTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day0130.SwingTest" />
+    <configuration name="Quiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0119.Quiz" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day0130.*" />
+          <option name="PATTERN" value="day0119.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwingTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day0130.SwingTest" />
+    <configuration name="ShopListForm (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0131.ShopListForm" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day0130.*" />
+          <option name="PATTERN" value="day0131.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwingTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day0130.SwingTest" />
+    <configuration name="ShopListForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0131.ShopListForm" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day0130.*" />
+          <option name="PATTERN" value="day0131.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day0130.SwingTest" />
+    <configuration name="ShopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0131.ShopMain" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day0130.*" />
+          <option name="PATTERN" value="day0131.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KioskApp" />
-        <item itemvalue="Application.SwingTest" />
-        <item itemvalue="Application.SwingTest (5)" />
-        <item itemvalue="Application.SwingTest (4)" />
-        <item itemvalue="Application.SwingTest (3)" />
+        <item itemvalue="Application.KioskMain" />
+        <item itemvalue="Application.Quiz" />
+        <item itemvalue="Application.ShopListForm" />
+        <item itemvalue="Application.ShopListForm (4)" />
+        <item itemvalue="Application.ShopMain" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +185,8 @@
       <workItem from="1706232007871" duration="17921000" />
       <workItem from="1706486491891" duration="18825000" />
       <workItem from="1706572904301" duration="6441000" />
-      <workItem from="1706582509615" duration="14634000" />
+      <workItem from="1706582509615" duration="14761000" />
+      <workItem from="1706659851783" duration="24360000" />
     </task>
     <servers />
   </component>
