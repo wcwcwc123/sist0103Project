@@ -3,6 +3,8 @@ package kiosk;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 //주문화면
 public class KioskMain extends JFrame {
@@ -12,6 +14,7 @@ public class KioskMain extends JFrame {
     JButton btnBuy; // 결제하기 버튼
     JButton btnHome; // 홈 버튼(처음으로)
     JButton[] btnTemp = new JButton[8];
+    JPanel[] pnlTemp = new JPanel[8];
 
     Container cp;
     JScrollPane scrollPane,orderPane; // 상품목록, 주문(장바구니)팬
@@ -29,7 +32,7 @@ public class KioskMain extends JFrame {
     public KioskMain() {
         super("주문 메뉴화면");
 
-        this.setBounds(600, 0, 600, 600);
+        //this.setBounds(600, 0, 600, 600);
 
         this.initdesign();
         this.setVisible(true);
@@ -52,6 +55,17 @@ public class KioskMain extends JFrame {
         pnl1.add(btnHome);
         this.add("North",pnl1);
 
+        btnHome.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                setVisible(false);
+                new MainFrame();
+            }
+        });
+
+
+
         pnl2 = new JPanel(new BorderLayout()); // 메뉴종류와, 메뉴 판넬
         this.add("Center", pnl2);
 
@@ -67,9 +81,13 @@ public class KioskMain extends JFrame {
 
         for (int i = 0; i < 8; i++) {
             btnTemp[i] = new JButton(""+i);
-            btnTemp[i].setPreferredSize(new Dimension(150,50));
-            pnl4.add(btnTemp[i]);
+            pnlTemp[i] = new JPanel();
+            btnTemp[i].setPreferredSize(new Dimension(150,40));
+
+            pnlTemp[i].add(btnTemp[i]);
+            pnl4.add(pnlTemp[i]);
         }
+        //btnTemp[0].setVisible(false);
 
         scrollPane = new JScrollPane(pnl4); // 스크롤팬 안에 메뉴판넬 삽입
 
