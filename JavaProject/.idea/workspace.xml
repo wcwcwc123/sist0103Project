@@ -7,7 +7,36 @@
     <list default="true" id="18610340-69b9-4709-a04d-2dc7d170fdc2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7efcdfa6-31dd-4753-9389-28a8e8d4b42c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7efcdfa6-31dd-4753-9389-28a8e8d4b42c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistJavaProject/src/kiosk/KioskMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistJavaProject/src/kiosk/KioskMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistJavaProject/src/kiosk/KioskSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistJavaProject/src/kiosk/KioskSub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistJavaProject/src/kiosk/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistJavaProject/src/kiosk/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistJavaProject/src/kiosk/ProductAddForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistJavaProject/src/kiosk/ProductAddForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistJavaProject/src/kiosk/ProductListForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistJavaProject/src/kiosk/ProductListForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistJavaProject/src/kiosk/ReceiptTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistJavaProject/src/kiosk/ReceiptTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/KioskSub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/MainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/MainFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/MainFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/MainFrame$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/MainFrame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/MainFrame$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/MainFrame$ImageDraw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/MainFrame$ImageDraw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/MainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductAddForm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductAddForm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductAddForm$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductAddForm$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductAddForm$PhotoDraw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductAddForm$PhotoDraw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductAddForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductAddForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductListForm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductListForm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductListForm$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductListForm$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductListForm$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductListForm$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductListForm$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductListForm$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductListForm$ImageDraw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductListForm$ImageDraw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductListForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ProductListForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ReceiptTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/kiosk/ReceiptTable.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,20 +143,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.KioskSub (1)">
-    <configuration name="KioskSub (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kiosk.KioskSub" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kiosk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MainFrame">
     <configuration name="KioskSub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kiosk.KioskSub" />
       <module name="JavaProject" />
@@ -141,8 +157,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductListForm (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kiosk.ProductListForm" />
+    <configuration name="MainFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kiosk.MainFrame" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
@@ -154,8 +170,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Receipt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kiosk.Receipt" />
+    <configuration name="ProductAddForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kiosk.ProductAddForm" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kiosk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductListForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kiosk.ProductListForm" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
@@ -182,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KioskSub (1)" />
-        <item itemvalue="Application.ReceiptTable" />
-        <item itemvalue="Application.Receipt" />
+        <item itemvalue="Application.MainFrame" />
         <item itemvalue="Application.KioskSub" />
-        <item itemvalue="Application.ProductListForm (1)" />
+        <item itemvalue="Application.ProductListForm" />
+        <item itemvalue="Application.ProductAddForm" />
+        <item itemvalue="Application.ReceiptTable" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +241,7 @@
       <workItem from="1706572904301" duration="6441000" />
       <workItem from="1706582509615" duration="14761000" />
       <workItem from="1706659851783" duration="24585000" />
-      <workItem from="1706745623589" duration="28328000" />
+      <workItem from="1706745623589" duration="47766000" />
     </task>
     <servers />
   </component>

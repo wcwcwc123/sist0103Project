@@ -3,12 +3,15 @@ package kiosk;
 
 
 
+import com.sun.tools.javac.Main;
 import day0131.ShopDto;
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.JTableHeader;
+import javax.swing.table.TableColumnModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -24,8 +27,10 @@ public class ProductListForm extends JFrame {
 
     ImageDraw draw = new ImageDraw();
     String imageName;
+    String imageName2;
 
     JButton btnDelMenu;
+    JButton btnGoHome;
 
     //JComboBox<String>
 
@@ -66,7 +71,7 @@ public class ProductListForm extends JFrame {
         //검색 "메뉴명" 라벨
         JLabel lblSearchMenu = new JLabel("메뉴명");
         lblSearchMenu.setBounds(58,259,100,50);
-        lblSearchMenu.setFont(new Font("",Font.ITALIC,15));
+        lblSearchMenu.setFont(new Font(Font.MONOSPACED,Font.PLAIN,15));
         this.add(lblSearchMenu);
 
         //검색 필드
@@ -87,6 +92,7 @@ public class ProductListForm extends JFrame {
                 String searchName = tfSearch.getText();
                 Vector<ProductDto> slist = dbModel.getSearchMenus(searchName);
                 dataSearch(slist);
+                tfSearch.setText("");
 
 
             }
@@ -95,6 +101,8 @@ public class ProductListForm extends JFrame {
         //전체보기
         JButton btnReset = new JButton("전체메뉴 보기");
         btnReset.setBounds(52, 149, 150, 50);
+        btnReset.setBorderPainted(false);
+        btnReset.setFocusPainted(false);
         this.add(btnReset);
 
         btnReset.addActionListener(new ActionListener() {
@@ -104,17 +112,21 @@ public class ProductListForm extends JFrame {
                 dataWrite();
             }
         });
+        //처음으로
+        btnGoHome = new JButton("처음으로");
+        btnGoHome.setBounds(52, 50, 150, 50);
+        btnGoHome.setBorderPainted(false);
+        btnGoHome.setFocusPainted(false);
+        this.add(btnGoHome);
 
-        btnDelMenu = new JButton("삭제");
-        btnDelMenu.setBounds(220, 149, 100, 50);
-
-        btnDelMenu.addActionListener(new ActionListener() {
+        btnGoHome.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
-
+                new MainFrame();
+                setVisible(false);
             }
         });
+
 
 
         //table
@@ -122,6 +134,20 @@ public class ProductListForm extends JFrame {
         tableModel = new DefaultTableModel(title, 0);
         table = new JTable(tableModel);
         JScrollPane js = new JScrollPane(table);
+        table.setRowHeight(30);
+
+        // 테이블 컬럼 모델 가져오기
+        TableColumnModel columnModel = table.getColumnModel();
+
+        // 각 컬럼의 크기 조절 (예제에서는 각 컬럼에 따로 설정)
+        columnModel.getColumn(0).setPreferredWidth(30); // 상품번호 폭
+        columnModel.getColumn(1).setPreferredWidth(40); // 종류
+        columnModel.getColumn(2).setPreferredWidth(300); // 메뉴명 폭
+        columnModel.getColumn(3).setPreferredWidth(100); // 가격 폭
+
+        // 헤더에 대한 폰트 설정
+        JTableHeader header = table.getTableHeader();
+        header.setFont(new Font("", Font.BOLD, 18)); // 원하는 글자 크기 및 폰트 설정
 
         js.setBounds(433,201,792,755);
         this.add(js);
@@ -141,25 +167,33 @@ public class ProductListForm extends JFrame {
 
                 int row = table.getSelectedRow();
                 Object value = table.getValueAt(row, 0);
-
                 int num = Integer.parseInt(String.valueOf(value))-1;
 
-
-
-
                 //list에서 row에 해당하는 dto를 꺼내서 거기에서 이미지명 얻는다
-                imageName = list.get(num).getImg();
+                //imageName = list.get(num).getImg();
 
                 //imageName = list.get(row).getImg();
 
                 //이미지 나오게 하는 메서드 호출
+                //draw.repaint();
+
+                int pnum = Integer.parseInt(String.valueOf(value));
+
+
+                for (int i = 0; i < list.size(); i++) {
+
+                    if (Integer.parseInt(list.get(i).getMenu_id()) == pnum) {
+                        imageName2 = list.get(i).getImg();
+                        break;
+                    }
+                }
                 draw.repaint();
 
-
                 //int col = table.getSelectedColumn();
-                System.out.println(row);
+                //System.out.println(row);
                 //Object value = table.getValueAt(row, 0);
-                System.out.println("Clicked value: " + value);
+                //System.out.println("Clicked value: " + value);
+
             }
         });
 
@@ -219,8 +253,8 @@ public class ProductListForm extends JFrame {
         public void paint(Graphics g) {
             super.paint(g);
 
-            if (imageName != null) {
-                Image image = new ImageIcon(imageName).getImage();
+            if (imageName2 != null) {
+                Image image = new ImageIcon(imageName2).getImage();
                 g.drawImage(image, 0, 0,272 , 400, this);
             }
         }

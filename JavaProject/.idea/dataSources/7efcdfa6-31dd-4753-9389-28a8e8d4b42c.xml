@@ -59750,12 +59750,12 @@
       <SequenceIdentity>1(1)</SequenceIdentity>
     </sequence>
     <sequence id="7506" parent="41" name="SEQ_MENU">
-      <CacheSize>20</CacheSize>
+      <CacheSize>100</CacheSize>
       <CreatedTimestamp>2024-02-01.18:20:29</CreatedTimestamp>
       <DetailsLevel>2</DetailsLevel>
-      <ModifiedTimestamp>2024-02-01.18:20:29</ModifiedTimestamp>
+      <ModifiedTimestamp>2024-02-02.10:43:05</ModifiedTimestamp>
       <ObjectId>78280</ObjectId>
-      <SequenceIdentity>1(21)</SequenceIdentity>
+      <SequenceIdentity>1(22)</SequenceIdentity>
     </sequence>
     <sequence id="7507" parent="41" name="SEQ_MENU_CODE">
       <CacheSize>20</CacheSize>

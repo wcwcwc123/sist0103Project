@@ -4,6 +4,7 @@ import day0131.ShopDto;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.JTableHeader;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -89,6 +90,8 @@ public class KioskSub extends JFrame {
         btnTea = new JButton("티");
         btnIce = new JButton("빙수");
         btnHome = new JButton("처음으로");
+        btnHome.setBorderPainted(false);
+        btnHome.setFocusPainted(false);
 
         pnl1 = new JPanel(new FlowLayout(FlowLayout.LEFT)); //처음으로 버튼 패널
         pnl1.add(btnHome);
@@ -180,9 +183,11 @@ public class KioskSub extends JFrame {
         for (int i = 0; i < list.size(); i++) {
             ImageIcon icon = new ImageIcon(list.get(i).getImg());
 
-            Image img = icon.getImage().getScaledInstance(150, 150, Image.SCALE_SMOOTH);
+            Image img = icon.getImage().getScaledInstance(175, 175, Image.SCALE_SMOOTH);
             ImageIcon resizedIcon = new ImageIcon(img);
             btnTemp[i] = new JButton("", resizedIcon);
+            btnTemp[i].setFocusPainted(false); // 포커스 없애기
+            //btnTemp[i].setBorderPainted(false);
 
             int index = i;
             btnTemp[i].addActionListener(new ActionListener() {
@@ -215,29 +220,6 @@ public class KioskSub extends JFrame {
                     tmpOrder.setTotal(list.get(index).getPrice());
                     orderBox.add(tmpOrder);
 
-//                    OrderDto tmpOrder = new OrderDto();
-//                    //orderBox.add(list.get(index).getName());
-//
-//                    Vector<String> rowData = new Vector<>();
-//                    int qty = 1;
-//
-//                    tmpOrder.setMenu_name(list.get(index).getName());
-//                    tmpOrder.setPrice(list.get(index).getPrice());
-//
-//                    for (int j = 0; j < orderBox.size(); j++) {
-//                        if (list.get(index).getName().equals(orderBox.get(j).getMenu_name())) {
-//
-//                        }
-//                    }
-//
-//                    tmpOrder.setQty(1);
-//                    tmpOrder.setTotal(list.get(index).getPrice());
-//
-//                    orderBox.add(tmpOrder);
-
-
-
-
                     tableModel.setRowCount(0);
                     //테이블에 데이터 추가하기
                     totalPrice = 0;
@@ -257,15 +239,6 @@ public class KioskSub extends JFrame {
                     }
 
                     lblTotal2.setText(currencyFormat.format(totalPrice));
-                    //lblTotal2.setText(String.valueOf(totalPrice));
-
-
-
-//                    rowData.add(list.get(index).getName()); // 상품명
-//                    rowData.add(String.valueOf(list.get(index).getPrice())); // 단가 (예시로 1500원으로 설정)
-//                    rowData.add("1"); // 수량 (예시로 1개로 설정)
-//                    rowData.add(String.valueOf(list.get(index).getPrice())); // 금액 (단가 * 수량으로 계산)
-//                    tableModel.addRow(rowData);
                 }
             });
 
@@ -278,9 +251,9 @@ public class KioskSub extends JFrame {
             lblName[i].setFont(new Font("", Font.BOLD, 20));
             lblName[i].setHorizontalAlignment(SwingConstants.CENTER);
 
-            lblPrice[i] = new JLabel("￦ " + i + i + i + i);
-            lblPrice[i] = new JLabel("￦ " + list.get(i).getPrice());
-            lblPrice[i].setFont(new Font("", Font.BOLD, 12));
+            //lblPrice[i] = new JLabel("￦ " + i + i + i + i);
+            lblPrice[i] = new JLabel("￦ " + list.get(i).getPrice()+"   ");
+            lblPrice[i].setFont(new Font("", Font.BOLD, 16));
             lblPrice[i].setHorizontalAlignment(SwingConstants.RIGHT);
 
             pnlTemp[i].add("North", lblName[i]);
@@ -328,6 +301,12 @@ public class KioskSub extends JFrame {
         String[] title = {"상품명", "단가", "수량", "금액"};
         tableModel = new DefaultTableModel(title, 0);
         table = new JTable(tableModel);
+        // 행 높이 설정
+        table.setRowHeight(35); // 픽셀 단위로 설정
+
+        // 헤더에 대한 폰트 설정
+        JTableHeader header = table.getTableHeader();
+        header.setFont(new Font("", Font.BOLD, 16)); // 원하는 글자 크기 및 폰트 설정
 
 //        table.setBounds(new Rectangle(1000,400));
         orderPane = new JScrollPane(table);
@@ -349,32 +328,6 @@ public class KioskSub extends JFrame {
             //테이블 모델에 추가
             tableModel.addRow(data);
         }
-//        totalPrice = 0;
-//        for (OrderDto dto : orderBox) {
-//            Vector<String> data = new Vector<String>();
-//
-//            data.add(dto.getMenu_name());
-//            data.add(String.valueOf(dto.getPrice()));
-//            data.add(String.valueOf(dto.getQty()));
-//            data.add(String.valueOf(dto.getQty()*dto.getPrice()));
-//
-//            //테이블 모델에 추가
-//            //tableModel.addRow(data);
-//
-//            totalPrice += (dto.getPrice()*dto.getQty());
-//
-//        }
-
-        /*===============================================*/
-
-
-        //테이블에 데이터 추가하기
-        /*Vector<String> data = new Vector<String>();
-        data.add("test1");
-        data.add("4500");
-        data.add("2");
-        data.add("9000");
-        tableModel.addRow(data);*/
 
 
 
@@ -400,12 +353,14 @@ public class KioskSub extends JFrame {
 
         btnBuy = new JButton("결제하기");
         btnBuy.setPreferredSize(new Dimension(340, 180));
+        btnBuy.setFont(new Font("",Font.BOLD,30));
+        btnBuy.setBorderPainted(false);
         //pnl11 = new JPanel(); // 결제하기 판넬
         //pnl11.add(btnBuy);
         btnBuy.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new ReceiptTable(orderBox);
+                new ReceiptTable(orderBox,KioskSub.this);
 
             }
         });

@@ -31,6 +31,9 @@ public class MainFrame extends JFrame {
         //주문하기 버튼
         JButton btnOrder = new JButton("주문하기");
         btnOrder.setBounds(394,870,450,120);
+        btnOrder.setFont(new Font(Font.DIALOG,Font.BOLD,35));
+        btnOrder.setFocusPainted(false);
+        btnOrder.setBorderPainted(false);
         this.add(btnOrder);
 
         btnOrder.addActionListener(new ActionListener() {
@@ -43,8 +46,9 @@ public class MainFrame extends JFrame {
         });
 
         //상품 추가 버튼
-        JButton btnAdd = new JButton("btnAdd");
-        btnAdd.setBounds(1118,873,60,60);
+        JButton btnAdd = new JButton("메뉴 추가");
+        btnAdd.setBounds(1118,868,120,55);
+        btnAdd.setBorderPainted(false);
         this.add(btnAdd);
 
         btnAdd.addActionListener(new ActionListener() {
@@ -55,8 +59,9 @@ public class MainFrame extends JFrame {
         });
 
         //상폼 목록 버튼
-        JButton btnList = new JButton("btnList");
-        btnList.setBounds(1188, 873, 60, 60);
+        JButton btnList = new JButton("메뉴 관리");
+        btnList.setBounds(1118, 933, 120, 55);
+        btnList.setBorderPainted(false);
         this.add(btnList);
 
         btnList.addActionListener(new ActionListener() {
@@ -64,6 +69,7 @@ public class MainFrame extends JFrame {
             public void actionPerformed(ActionEvent e) {
 
                 new ProductListForm();
+                setVisible(false);
             }
         });
 

@@ -58,7 +58,7 @@ public class ProductAddForm extends JFrame {
         String [] typeList = {"커피","플랫치노","에이드","티", "빙수"};  //콤보 박스에 담을 문자 배열
         menuType = new JComboBox<String>(typeList);     //콤보 박스에 문자배열 연결
 
-        menuType.setBounds(110,65,90,45);
+        menuType.setBounds(110,65,90,35);
         this.add(menuType);
 
 
@@ -70,6 +70,9 @@ public class ProductAddForm extends JFrame {
 
         btnImage = new JButton("사진 선택");
         btnImage.setBounds(110, 165, 100, 30);
+        btnImage.setBorderPainted(false);
+        btnImage.setFocusPainted(false);
+
         this.add(btnImage);
 
         //이미지
@@ -97,6 +100,9 @@ public class ProductAddForm extends JFrame {
         //db추가버튼
         btnInsert = new JButton("메뉴 추가");
         btnInsert.setBounds(47, 231, 180, 90);
+        btnInsert.setBorderPainted(false);
+        btnInsert.setFocusPainted(false);
+
         this.add(btnInsert);
 
 
