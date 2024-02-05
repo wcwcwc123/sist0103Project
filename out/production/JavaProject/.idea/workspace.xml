@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94cc9a79-6107-4aca-8048-fda41a3d52a3" name="Changes" comment="">
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+>>>>>>> 9210912b8e9f9f060ce6b1966667fbf7f1145b5e
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2aeXvjthF5HAhaXOrYMauV35gJr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+<<<<<<< HEAD
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Abstract_11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrChangeDatas_04.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrDataInOut_12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrInt_10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrJungbokSort_06.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrMaxNum_13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrReview_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrString_11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayChange_03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySearchName_02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySearchNum_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySortString_05.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayString_09.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Book131_17.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Book175_14.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CallByReference_12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CardTest_08.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstNum_11 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstNum_11 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstNum_11 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstNum_11 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstNum_11 (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstNum_11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstTest_02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoWhile_08.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial_13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForGugu_14.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForStar_02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.For_07.executor&quot;: &quot;Run&quot;,
+    &quot;Application.For_09.executor&quot;: &quot;Run&quot;,
+    &quot;Application.For_10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetInstance_15.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IfOperTest_11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Implement_13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inheri_06.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterImpl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MathRandom_04.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyDate_14.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectEx_07.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OpenYoon_04.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OperReview_02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OperationEx1_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuizClass_16 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuizClass_16.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuizForWhile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuizForWhile_15.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuizFor_12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuizFor_17.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuizInOutRank_15.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuizMain (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuizMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Quiz_18.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomSu_06.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Random_05.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SangpumIpgo_13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticInstance_09.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringEx_07.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringIn_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentMain_10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThisEx_03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhileFor_05.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhileReview_03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhileTest_06.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WorkerMethod_12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.YoonYear_03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sumTest_11.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/work/sist0103Project/JavaProject/SistJavaProject/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Abstract_11.executor": "Run",
+    "Application.ArrChangeDatas_04.executor": "Run",
+    "Application.ArrDataInOut_12.executor": "Run",
+    "Application.ArrInt_10.executor": "Run",
+    "Application.ArrJungbokSort_06.executor": "Run",
+    "Application.ArrMaxNum_13.executor": "Run",
+    "Application.ArrReview_01.executor": "Run",
+    "Application.ArrString_11.executor": "Run",
+    "Application.ArrayChange_03.executor": "Run",
+    "Application.ArraySearchName_02.executor": "Run",
+    "Application.ArraySearchNum_01.executor": "Run",
+    "Application.ArraySortString_05.executor": "Run",
+    "Application.ArrayString_09.executor": "Run",
+    "Application.Book131_17.executor": "Run",
+    "Application.Book175_14.executor": "Run",
+    "Application.CallByReference_12.executor": "Run",
+    "Application.CardTest_08.executor": "Run",
+    "Application.ConstNum_11 (1).executor": "Run",
+    "Application.ConstNum_11 (2).executor": "Run",
+    "Application.ConstNum_11 (3).executor": "Run",
+    "Application.ConstNum_11 (4).executor": "Run",
+    "Application.ConstNum_11 (5).executor": "Run",
+    "Application.ConstNum_11.executor": "Run",
+    "Application.ConstTest_02.executor": "Run",
+    "Application.DoWhile_08.executor": "Run",
+    "Application.Factorial_13.executor": "Run",
+    "Application.ForGugu_14.executor": "Run",
+    "Application.ForStar_02.executor": "Run",
+    "Application.For_07.executor": "Run",
+    "Application.For_09.executor": "Run",
+    "Application.For_10.executor": "Run",
+    "Application.GetInstance_15.executor": "Run",
+    "Application.IfOperTest_11.executor": "Run",
+    "Application.Implement_13.executor": "Run",
+    "Application.Inheri_06.executor": "Run",
+    "Application.InterImpl.executor": "Run",
+    "Application.MathRandom_04.executor": "Run",
+    "Application.MyDate_14.executor": "Run",
+    "Application.ObjectEx_07.executor": "Run",
+    "Application.OpenYoon_04.executor": "Run",
+    "Application.OperReview_02.executor": "Run",
+    "Application.OperationEx1_01.executor": "Run",
+    "Application.QuizClass_16 (1).executor": "Run",
+    "Application.QuizClass_16.executor": "Run",
+    "Application.QuizForWhile.executor": "Run",
+    "Application.QuizForWhile_15.executor": "Run",
+    "Application.QuizFor_12.executor": "Run",
+    "Application.QuizFor_17.executor": "Run",
+    "Application.QuizInOutRank_15.executor": "Run",
+    "Application.QuizMain (1).executor": "Run",
+    "Application.QuizMain.executor": "Run",
+    "Application.Quiz_18.executor": "Run",
+    "Application.RandomSu_06.executor": "Run",
+    "Application.Random_05.executor": "Run",
+    "Application.SangpumIpgo_13.executor": "Run",
+    "Application.StaticInstance_09.executor": "Run",
+    "Application.StringEx_07.executor": "Run",
+    "Application.StringIn_01.executor": "Run",
+    "Application.StudentMain_10.executor": "Run",
+    "Application.ThisEx_03.executor": "Run",
+    "Application.WhileFor_05.executor": "Run",
+    "Application.WhileReview_03.executor": "Run",
+    "Application.WhileTest_06.executor": "Run",
+    "Application.WorkerMethod_12.executor": "Run",
+    "Application.YoonYear_03.executor": "Run",
+    "Application.sumTest_11.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/sist0103/work/JavaProject/SistJavaProject/src",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.language"
+>>>>>>> 9210912b8e9f9f060ce6b1966667fbf7f1145b5e
+  }
+}</component>
+  <component name="RunManager" selected="Application.QuizMain (1)">
+    <configuration name="Abstract_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0112.Abstract_11" />
+      <module name="SistJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day0112.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Implement_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0112.Implement_13" />
+      <module name="SistJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day0112.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0112.InterImpl" />
+      <module name="SistJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day0112.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuizMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0112.QuizMain" />
+      <module name="SistJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day0112.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuizMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day0112.QuizMain" />
+      <module name="SistJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day0112.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QuizMain (1)" />
+        <item itemvalue="Application.QuizMain" />
+        <item itemvalue="Application.InterImpl" />
+        <item itemvalue="Application.Implement_13" />
+        <item itemvalue="Application.Abstract_11" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-e1d2075fd9a7-8db56bdc" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94cc9a79-6107-4aca-8048-fda41a3d52a3" name="Changes" comment="" />
+      <created>1704680250597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704680250597</updated>
+    </task>
+    <servers />
+  </component>
+</project>
