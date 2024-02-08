@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var rightId = "angel";
+        var rightPw = "a1234";
+
+        function login(id,pw){
+            if(id==rightId){
+                document.write("ㄹ그인성공");
+
+            }else{
+                alert("잘못된비번");
+                
+            }
+        }
+
+        var userid=prompt("아이디를 입력하세요");
+        var userpw=prompt("패스워드 입력하세요");
+
+
+        login(userid,userpw);
+        
+    </script>
+</body>
+</html>

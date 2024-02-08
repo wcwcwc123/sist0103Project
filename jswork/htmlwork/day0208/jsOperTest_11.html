@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a ="hello";
+        var b = 100;
+        var c =10.5;
+        var d = "90";
+
+        function sleep(milliseconds) {
+            return new Promise(resolve => setTimeout(resolve, milliseconds));
+        }
+
+        function showTime(){
+            document.write(new Date()+"<hr>");
+        }
+        function scrollDown() {
+        // 100px씩 아래로 스크롤
+            window.scrollBy(0, 100);
+
+            // 스크롤이 페이지의 끝에 도달하지 않았다면 재귀 호출
+            if (window.innerHeight + window.pageYOffset < document.body.offsetHeight) {
+                requestAnimationFrame(scrollDown);
+            }
+        }
+
+
+
+        //typeof
+        document.write(typeof(a)+"<br>");
+        document.write(typeof(b)+"<br>");
+        document.write(typeof(c)+"<br>");
+        document.write(typeof(d)+"<br>");
+
+        document.write((b+100)+"<br>");
+        document.write((d+100)+"<br>");
+
+
+        //isNan(Not a Number): 문자일경우는 true,숫자일 경우 false
+        document.write("<hr>");
+    
+        document.write(isNaN(100)+"<br>"); //false
+        document.write(isNaN("hello"));
+        document.write(isNaN("a1000"+"<br>"));
+        document.write(isNaN("50")+"<br>");
+
+        //현재날씨 출력
+        var date = new Date();
+        document.write(date);
+        document.write(date.getFullYear()+"<br>");
+        document.write(date.getMonth()+ "<br>");
+        document.write(date.getDate()+"<br>")
+
+
+
+        // while(true){
+        //     var date2 = new Date();
+        //     document.write(date2);
+        //     sleep(500);
+        // }
+
+        // for(var i =0;i<5000;i++){
+        //     //var date2 = new Date();
+        //     document.write(new Date()+"<hr>");
+        //     await sleep(500);
+        // };
+        var intervalId = setInterval(showTime,100);
+        setInterval(scrollDown,100);
+
+
+
+
+    </script>
+</body>
+</html>

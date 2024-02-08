@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function(){
+            var list ='';
+
+            list+='<ul>';
+            list+='<li>java</li>';
+            list +='<li>JavaScript</li>';
+            list += '</ul>';
+
+            //document.write(list)
+            //document.body.innerHTML = list; //html문서의 body태그에 넣겠다
+            //document.getElementById("out").innerHTML=list;
+
+            out.innerHTML = list;
+
+            var idOut =  document.getElementById("out");
+            idOut.addEventListener("click",function(){
+                console.log("hihih");
+                alert('hihi');
+
+
+            });
+            console.log("hihi");
+
+            console.log(btn);
+            
+
+        }
+
+
+
+
+        
+    </script>
+</head>
+<body>
+    <div id="out">결과출력</div>
+    <button id="btn">button</button>
+    
+
+    
+</body>
+</html>
