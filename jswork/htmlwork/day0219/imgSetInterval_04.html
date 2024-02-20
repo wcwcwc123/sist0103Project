@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #photo{
+            width: 500px;
+            height: 600px;
+            
+        }
+        #btnToggle{
+            width: 150px;
+            height: 50px;
+            font-size: 16px;
+        }
+        /* 메시지 텍스트의 스타일 */
+        .message {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function toggleFunction() {
+        }
+        function pushMsgFunction(){
+
+        }
+        function checkEnter(){}
+
+
+        window.onload=function(){
+            var intervalID = null;
+
+            //3초마다 연예인사진이 바뀌게 하기
+
+
+            //3초마다 메세지가  msgarr로 변하기
+
+            var msgarr=["아름다운 밤이에요~~","오늘은 비가 오네요","이제는 봄","내가 좋아하는 연예인"];
+            //30~100난수
+            var imgNum = parseInt(Math.random()*21)+20;
+            var i=1;
+
+            var intervalID = null;
+            var imgDoc = document.getElementById("photo");
+            var msgDoc = document.getElementById("hi");
+            var msgText = document.getElementById("addMsg");
+
+            toggleFunction = function(){
+
+                if(intervalID){
+                    clearInterval(intervalID);
+                    intervalID = null;
+                    msgDoc.innerHTML="종료";
+                    console.log(msgDoc.innerHTML);
+
+                }else{
+                    intervalID = setInterval(function(){
+
+                    var imgNum = parseInt(Math.random()*19)+1; //
+                    var arrNum = parseInt(Math.random()*msgarr.length);
+
+                    console.log("count: "+i++ +",imgNum: "+imgNum+",arrNum: "+arrNum );
+
+                    imgDoc.src = "../image/연예인사진/"+imgNum+".jpg";
+                    msgDoc.innerHTML=msgarr[arrNum];
+
+                    },750);
+                }
+            }
+            pushMsgFunction = function(){
+                var textValue = msgText.value;
+                msgarr.push(textValue)
+                msgText.value="";
+                console.log(msgarr);
+            }
+            checkEnter = function(event) {
+                if (event.keyCode === 13) { // 13은 엔터 키의 keyCode입니다.
+                    pushMsgFunction();
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <img src="../image/연예인사진/15.jpg" id="photo">
+    </div>
+    
+    <div>
+        <button id="btnToggle" onclick="toggleFunction()" >시작/중지</button>
+    </div>
+
+    <p class="message" id="hi">메세지 출력...</p>
+    <input type="text" id="addMsg" onkeypress="checkEnter(event)">
+    <button onclick="pushMsgFunction()">추가</button>
+
+
+
+
+</body>
+</html>
