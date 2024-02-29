@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <p>{{ message }}</p>
+        <p>{{message + "!!!!!"}}</p>
+        <p :style="styleA">스타일 바운딩</p>
+        <p>{{sw}}</p>
+        <h3>{{sw ? "안녕하세요":"안녕히 가세요" }}</h3>
+        <button @click="changeMessage">Click me!</button>
+    </div>
+    
+      <script>
+        // Vue 인스턴스를 생성합니다.
+        let count =1;
+        const app = Vue.createApp({
+          // 데이터를 정의합니다.
+          data() {
+            return {
+              message: 'Hello, Vue.js!',
+              styleA: 'color:blue',
+              sw:true
+            };
+          },
+          // 메서드를 정의합니다.
+          methods: {
+            changeMessage() {
+              this.message = 'Vue.js is awesome!'+count++;
+            }
+          }
+        });
+    
+        // Vue 인스턴스를 특정 요소에 마운트합니다.
+        app.mount('#app');
+      </script>
+</body>
+</html>
