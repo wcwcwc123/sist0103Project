@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+    <person no="1">
+        <name>유민상</name>
+        <addr>인천시</addr>
+    </person>
+    <person no="2">
+        <name>이민상</name>
+        <addr>이천시</addr>
+    </person>
+    <person no="3">
+        <name>삼민상</name>
+        <addr>삼천시</addr>
+    </person>
+    <person no="4">
+        <name>사민상</name>
+        <addr>사천시</addr>
+    </person>
+</data>
