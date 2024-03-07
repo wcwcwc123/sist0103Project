@@ -32,6 +32,7 @@
     String hometown =  multi.getParameter("hometown");
     String []hobby =  multi.getParameterValues("hobby");
     String memo =  multi.getParameter("memo");
+    String num = multi.getParameter("num");
 
     String hobbys ="";
 
@@ -64,8 +65,9 @@
     dto.setHometown(hometown);
     dto.setHobby(hobbys);
     dto.setMemo(memo);
+    dto.setNum(num);
 
-    dao.insertIntro(dto);
+    dao.updateIntro(dto);
 
 
     //String hobby=request.getParameter("hobby");
