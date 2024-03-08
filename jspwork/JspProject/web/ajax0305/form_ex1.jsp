@@ -60,7 +60,7 @@
         var name = $("#name").val();
         var hp = $("#hp").val();
 
-        console.log("hihi"+name);
+        //console.log("hihi"+name);
 
         $.ajax({
             type: "get",

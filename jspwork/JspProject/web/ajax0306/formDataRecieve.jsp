@@ -22,4 +22,3 @@
     response.setCharacterEncoding("UTF-8");
     response.getWriter().write(ob.toString());
 %>
-
