@@ -16,8 +16,6 @@
     String root=request.getContextPath();
 %>
 <body>
-
-<%--<img alt="" src="<%=root %>/image/banner-02.png" style="width: 1080px;"><br><br>--%>
 <div class="swiper mySwiper">
     <div class="swiper-wrapper">
         <div class="swiper-slide"><img src="../image/banner-01.png" alt="광고 1" style="width: 100%;"></div>

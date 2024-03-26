@@ -52,8 +52,8 @@
         .slider img {
             width: 100%;
             display: block;
+            transition: transform 0.5s ease;
         }
-
         .prev, .next {
             cursor: pointer;
             position: absolute;
@@ -74,6 +74,7 @@
         .next {
             right: 0;
         }
+
     </style>
 
 </head>

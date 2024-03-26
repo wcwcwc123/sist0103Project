@@ -11,11 +11,11 @@ public class DbConnect {
     public DbConnect() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            System.out.println("드라이버성공");
+            System.out.println("DBConnect(): jdbc.Driver success");
         } catch (ClassNotFoundException e) {
             // TODO Auto-generated catch block
             //e.printStackTrace();
-            System.out.println("오라클드라이버 실패"+e.getMessage());
+            System.out.println("DBConnect(): "+e.getMessage());
         }
     }
     public Connection getConnection()
@@ -24,11 +24,11 @@ public class DbConnect {
 
         try {
             conn=DriverManager.getConnection(url, userName, password);
-            System.out.println("sql success");
+            System.out.println("getConnection(): success");
         } catch (SQLException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-            System.out.println("sql failed: "+e.getMessage());
+            System.out.println("getConnection():sql failed: "+e.getMessage());
         }
 
 
@@ -93,32 +93,18 @@ public class DbConnect {
 
     public static void main(String[] args) throws SQLException {
 
-        DbConnect sqldb = new DbConnect();
-        Connection conn = sqldb.getConnection();
-
-        PreparedStatement psmt = null;
-
-        for (int i = 0; i < 12; i++) {
-            String sql = "insert into food(foodname,foodphoto,price,cnt) " +
-                    "values('푸드"+(i+1)+ "','../image/Food/"+(i+1)+".jpg','12000','"+(i*5)+"')";
-            psmt = conn.prepareStatement(sql);
-            psmt.execute();
-        }
-        sqldb.dbClose(psmt,conn);
-
-
-
-
-//        Connection connection = DriverManager.getConnection(url, userName, password);
-//        PreparedStatement psmt = null;
-//        for (int i = 0; i < 50; i++) {
-//            String sql = "insert into team(name,driver,addr,writeday) " +
-//                    "values('김신아"+(i+1)+"','있음','경기도 하남시"+(i+1)+"',now())";
-//            psmt = connection.prepareStatement(sql);
-//            psmt.execute();
+//        DbConnect sqldb = new DbConnect();
+//        Connection conn = sqldb.getConnection();
 //
+//        PreparedStatement psmt = null;
+//
+//        for (int i = 0; i < 12; i++) {
+//            String sql = "insert into food(foodname,foodphoto,price,cnt) " +
+//                    "values('푸드"+(i+1)+ "','../image/Food/"+(i+1)+".jpg','12000','"+(i*5)+"')";
+//            psmt = conn.prepareStatement(sql);
+//            psmt.execute();
 //        }
-//        psmt.close();
-//        connection.close();
+//        sqldb.dbClose(psmt,conn);
+
     }
 }

@@ -18,7 +18,7 @@
       width: 100%;
       height: 80px;
       line-height: 80px;
-      font-size: 30pt;
+      font-size: 20pt;
       font-family: 'Noto Serif KR';
       text-align: center;
     }
@@ -40,7 +40,7 @@
       font-size: 15pt;
       font-family: 'Noto Serif KR';
       left: 50px;
-      top: 1300px;
+      top: 300px;
       border: 5px groove purple;
       border-radius: 30px;
       padding: 20px 20px;
@@ -49,9 +49,10 @@
 
     div.main{
 
-      width: 1920px;
+      width: 1200px;
       height: 700px;
-      font-size: 15pt;
+      font-size: 12pt;
+      color:gray;
       font-family: 'Noto Serif KR';
       left: 400px;
       top: 200px;
@@ -74,6 +75,9 @@
 </div>
 <div class="layout menu">
   <jsp:include page="layout/menu.jsp"/>
+</div>
+<div class="layout info">
+  <jsp:include page="layout/info.jsp"/>
 </div>
 <div class="layout main">
   <jsp:include page="<%=mainPage %>"/>

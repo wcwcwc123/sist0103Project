@@ -32,5 +32,6 @@
     <orderEntry type="library" name="ojdbc11" level="project" />
     <orderEntry type="library" name="@types/activex-dao" level="application" />
     <orderEntry type="library" name="JAVA EE 6" level="project" />
+    <orderEntry type="library" name="jbcrypt-0.4" level="project" />
   </component>
 </module>
